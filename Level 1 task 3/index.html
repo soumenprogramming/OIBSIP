@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+</head>
+<link rel="stylesheet" href="styles.css">
+
+<script src="script.js"></script>
+<body>
+  <div class="container">
+    <h2>Temperature Converter</h2>
+    <h3>You can change the temperature from the selected units to all the units of temperature</h3>
+    <input type="number" id="temperature" placeholder="Enter temperature">
+    <select id="scale">
+        <option value="celsius">Celsius</option>
+        <option value="fahrenheit">Fahrenheit</option>
+        <option value="kelvin">Kelvin</option>
+    </select>
+    <button class="btn" onclick="convertTemperature()">Convert</button>
+    <div class="result" id="result"></div>
+</div>
+</body>
+</html>
